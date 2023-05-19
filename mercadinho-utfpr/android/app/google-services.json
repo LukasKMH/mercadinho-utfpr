@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "340880849589",
+    "project_id": "teste-6c72c",
+    "storage_bucket": "teste-6c72c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340880849589:android:36c445462828756971dcfc",
+        "android_client_info": {
+          "package_name": "com.example.projeto_mercadinho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340880849589-8iuatjtptn1tc2c3ek2pue8tp6aremmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn9UMiis4E2ATG96jxfdRTmpa8s9uFNnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340880849589-8iuatjtptn1tc2c3ek2pue8tp6aremmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
