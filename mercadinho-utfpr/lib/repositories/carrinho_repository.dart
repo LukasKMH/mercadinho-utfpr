@@ -18,16 +18,15 @@ class CarrinhoRepository extends ChangeNotifier {
   }
 
   void adicionarProduto(Produto produto, int quantidade) {
-  int index = _listaCarrinho.indexWhere((p) => p.nome == produto.nome);
-  if (index != -1) {
-    _listaCarrinho[index].quantidade += quantidade;
-  } else {
-    produto.quantidade = quantidade;
-    _listaCarrinho.add(produto);
+    int index = _listaCarrinho.indexWhere((p) => p.nome == produto.nome);
+    if (index != -1) {
+      _listaCarrinho[index].quantidade += quantidade;
+    } else {
+      produto.quantidade = quantidade;
+      _listaCarrinho.add(produto);
+    }
+    notifyListeners();
   }
-  notifyListeners();
-}
-
 
   void aumentarQuantidade(Produto produto) {
     int index = _listaCarrinho.indexWhere((p) => p.nome == produto.nome);
